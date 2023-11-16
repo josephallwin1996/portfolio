@@ -48,18 +48,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hi, I'm a dedicated full-stack developer. Specializing in JavaScript and php and expertise in frameworks like React, Node.js, codeignitor and an array of cutting-edge technologies, I'm passionate about crafting seamless digital experiences. From designing intuitive user interfaces to implementing robust backend solutions, I bring your ideas to life with a blend of creativity and technical expertise. Let's collaborate to build innovative and effective solutions that elevate your digital presence.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
